@@ -4,11 +4,11 @@
 
 \RequirePackage{xcolor}				% Custom colors
 
-\LoadClass{beamer}
-
+\DeclareOption*{%
+	\PassOptionsToClass{\CurrentOption}{beamer}%
+}
 
 \DeclareOption{dracula}{
-
 	% Dracula
 	\definecolor{background}{HTML}{282a36} % #282a36
 	\definecolor{foreground}{HTML}{f8f8f2} % #f8f8f2
@@ -23,7 +23,8 @@
 	\definecolor{yellow}{HTML}{f1fa8c} % #f1fa8c
 	\definecolor{url}{HTML}{f1fa8c} % #f1fa8c
 	\definecolor{math}{HTML}{f1fa8c} % #f1fa8c
-
 }
 
 \ProcessOptions\relax
+
+\LoadClass{beamer}

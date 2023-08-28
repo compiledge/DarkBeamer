@@ -1,8 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1693246840 "slide.tex" "slide.pdf" "slide" 1693246840 0
+["pdflatex"] 1693248612 "slide.tex" "slide.pdf" "slide" 1693248613 0
   "/etc/texmf/web2c/texmf.cnf" 1691194752 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
-  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmss10.tfm" 1136768653 1316 b636689f1933f24d1294acdf6041daaa ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmss12.tfm" 1136768653 1324 37b971caf729d7edd9cbb9f9b0ea76eb ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmss8.tfm" 1136768653 1296 d77f431d10d47c8ea2cc18cf45346274 ""
@@ -80,7 +79,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty" 1576625391 3935 57aa3c3e203a5c2effb4d2bd2efbc323 ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty" 1667332637 3052 30236f0cc243a8651b82240dfd2e8b9d ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty" 1667332637 2462 8ce5f9a9c63002f2c1af03c262cf29af ""
-  "/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo" 1667332637 8464 63bf71cc1214ffdd38288da73a7ca182 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo" 1667332637 8448 c33a4e1cb35cee9b33c2b21033b73e39 ""
   "/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls" 1663185823 12413 5a3669e34c7eedd2011faf100dfb9725 ""
   "/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty" 1652818226 24344 e4a61216aaa5c4a47a2ba730165cbdcc ""
   "/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty" 1663185823 7355 9472c0e2702617cc8e4df0332464b036 ""
@@ -130,7 +129,6 @@
   "/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty" 1654720880 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
   "/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx" 1667332637 2885 9c645d672ae17285bba324998918efd8 ""
   "/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty" 1654720880 4023 293ea1c16429fc0c4cf605f4da1791a9 ""
-  "/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty" 1575499774 7133 b94bbacbee6e4fdccdc7f810b2aec370 ""
   "/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty" 1580250785 17914 4c28a13fc3d975e6e81c9bea1d697276 ""
   "/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def" 1668456740 48272 52af74196dd55e6c486243beada2adcd ""
   "/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty" 1668456740 222727 cfc4e76008392378678e691ec73ef8f0 ""
@@ -164,11 +162,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1681034085 39561 34c98e380bf7c7201ee6a7909aff625a ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1691336763 128028 f533b797fba58d231669ea19e894e23e ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1691336769 6525864 9e708d2c272e35b0b890e81eda6b799b ""
-  "darkbeamer.cls" 1693246724 805 8edfc2fc552c968a78c166813d57ed3f ""
-  "slide.aux" 1693246840 1769 7013bd6c0523dc39670386f58ce4bf16 "pdflatex"
-  "slide.nav" 1693246840 783 431cfafb303afdcc0ef6144289a90c47 "pdflatex"
-  "slide.out" 1693246840 182 598cec279ecb65c405d6fd1cd13925d6 "pdflatex"
-  "slide.tex" 1693246840 335 14f6d8133509d72f7823e590cbbc693c ""
+  "darkbeamer.cls" 1693248611 869 e0fbf64e86937b35f86edf25378e071e ""
+  "slide.aux" 1693248613 1769 7013bd6c0523dc39670386f58ce4bf16 "pdflatex"
+  "slide.nav" 1693248613 783 431cfafb303afdcc0ef6144289a90c47 "pdflatex"
+  "slide.out" 1693248613 182 598cec279ecb65c405d6fd1cd13925d6 "pdflatex"
+  "slide.tex" 1693248382 379 0b9784410b67a28f4f13addad0e06da3 ""
   (generated)
   "slide.aux"
   "slide.log"
