@@ -1,5 +1,5 @@
-\documentclass[dracula,12pt]{darkbeamer}
-% \documentclass[dracula,Frankfurt,12pt]{darkbeamer}
+% \documentclass[dracula,12pt]{darkbeamer}
+\documentclass[dracula,Frankfurt,12pt]{darkbeamer}
 % \documentclass[gruvbox,Frankfurt,12pt]{darkbeamer}
 % \documentclass{darkbeamer}
 \author{author}
@@ -9,13 +9,17 @@
 
 \begin{document}
 
-\section{Chapter 1}
 \begin{frame}{}
 	\titlepage
 \end{frame}
 
+\begin{frame}{Summary}
+	\tableofcontents
+\end{frame}
+
+\section{Chapter 1}
 \begin{frame}{New frame 2}
-	Hello world!!! \alert{hello!}
+	Hello world!!! \alert{hello!!}
 	\begin{outline}
 		\1 GNU+Linux
 			\2 GNU Tools
@@ -23,15 +27,12 @@
 		\1 Mac OS
 		\1 Windows
 	\end{outline}
-	\begin{enumerate}
-		\item Vim
-		\begin{enumerate}
-				\item Neovim
-				\item Astrovim
-		\end{enumerate}
-		\item Emacs
-	\end{enumerate}
-
+	\begin{outline}[enumerate]
+		\1 Vim:
+			\2 Neovim
+			\2 Astrovim
+		\1 emacs
+	\end{outline}
 \end{frame}
 
 \section{Chapter 2}
@@ -39,5 +40,15 @@
 	Hello world!!! \alert{hello!}
 \end{frame}
 
+\subsection{Columns}
+\begin{frame}
+	\frametitle{Example of columns}
+	\begin{columns}[c]
+		\column{.45\textwidth}
+		Contents of the first column
+		\column{.45\textwidth}
+		Contents split \\ into two lines
+	\end{columns}
+\end{frame}
 
 \end{document}

@@ -96,10 +96,8 @@
 \ProcessOptions\relax
 \LoadClass{beamer}
 
-
 % Defining theme
 \usetheme{\mytheme}
-
 
 % ----------------------------------------------
 % 					Theme customization
@@ -107,6 +105,7 @@
 % Lists
 \setbeamertemplate{itemize items}{$\color{foreground}\bullet$}
 \setbeamertemplate{enumerate items}[square]
+\setbeamertemplate{sections/subsections in toc}[square]
 
 % Remove shadow and borders on title page
 \setbeamertemplate{title page}[default]
@@ -119,7 +118,7 @@
 % ----------------------------------------------
 
 % Text
-\setbeamercolor{normal text}{bg=black,fg=foreground}
+\setbeamercolor{normal text}{fg=foreground}
 \setbeamercolor{background canvas}{bg=background}
 \setbeamercolor{alerted text}{fg=color1}
 \setbeamercolor{frametitle}{fg=foreground}
@@ -129,18 +128,24 @@
 \setbeamercolor{title}{fg=color1, bg=background!95}
 
 % Structure
-\setbeamercolor{structure}{bg=black, fg=background}
+\setbeamercolor{structure}{fg=background!95}
+
+% Lists
+\setbeamercolor{item projected}{fg=background, bg=foreground}
 
 % Palletes
 \setbeamercolor{palette sidebar primary}{use=normal text,fg=normal text.fg}
 \setbeamercolor{palette sidebar quaternary}{use=structure,fg=structure.fg}
 \setbeamercolor{palette sidebar secondary}{use=structure,fg=structure.fg}
 \setbeamercolor{palette sidebar tertiary}{use=normal text,fg=normal text.fg}
-
+%
 % Sections
 \setbeamercolor{section in head/foot}{bg=background, fg=foreground}
-% \setbeamercolor{section in sidebar}{fg=brown}
-% \setbeamercolor{section in sidebar shaded}{fg=grey}
+\setbeamercolor{section in toc}{fg=foreground}
+\setbeamercolor{subsection in toc}{fg=foreground}
+
+\setbeamercolor{section in sidebar}{fg=brown}
+\setbeamercolor{section in sidebar shaded}{fg=grey}
 
 % Sidebar
 % \setbeamercolor{sidebar}{bg=red}
