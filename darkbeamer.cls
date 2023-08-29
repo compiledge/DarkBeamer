@@ -96,6 +96,11 @@
 \ProcessOptions\relax
 \LoadClass{beamer}
 
+% ----------------------------------------------
+% 					Outer Packages
+% ----------------------------------------------
+\RequirePackage{listings}			% Code snippets
+
 % Defining theme
 \usetheme{\mytheme}
 
@@ -162,3 +167,30 @@
 % \setbeamercolor{block title example}{use={normal text,example text},fg=example text.fg!75!normal text.fg,bg=normal text.bg!75!black}
 % \setbeamercolor{fine separation line}{}
 % \setbeamercolor{separation line}{}
+
+% ----------------------------------------------
+% 					Code Snippets
+% ----------------------------------------------
+\lstdefinestyle{mystyle}{
+	backgroundcolor=\color{background},
+	commentstyle=\color{comment},
+	keywordstyle=\color{color2},
+	numberstyle=\tiny\color{comment},
+	stringstyle=\color{color3},
+	basicstyle=\ttfamily\small,
+	breakatwhitespace=false,
+	breaklines=true,
+	captionpos=b,
+	keepspaces=true,
+	numbers=left,
+	numbersep=5pt,
+	showspaces=false,
+	showstringspaces=false,
+	showtabs=false,
+	tabsize=2,
+	frame=single,
+	title=\lstname,
+	escapeinside={(*@}{@*)},
+	frameround = tttt
+}
+\lstset{style=mystyle}

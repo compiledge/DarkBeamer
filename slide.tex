@@ -1,6 +1,6 @@
 % \documentclass[dracula,12pt]{darkbeamer}
-\documentclass[dracula,Frankfurt,12pt]{darkbeamer}
-% \documentclass[gruvbox,Frankfurt,12pt]{darkbeamer}
+% \documentclass[dracula,Frankfurt,12pt]{darkbeamer}
+\documentclass[gruvbox,Frankfurt,12pt]{darkbeamer}
 % \documentclass{darkbeamer}
 \author{author}
 \title{title}
@@ -48,8 +48,30 @@
 \subsection{Tcolorbox Blocks}
 
 \section{Snippets}
-\subsection{Code snippets}
+\subsection{Code Snippets}
+
+\begin{frame}[fragile]{Code Snippets}
+\begin{lstlisting}[language=c, caption=C snippet]
+#include<stdio.h>
+int main(){
+	printf("Hello World!\n");
+	return 0;
+}//end[main]
+\end{lstlisting}
+\end{frame}
+
 \subsection{Console snippets}
+
+\begin{frame}[fragile]{Code Snippets}
+\begin{lstlisting}[language=bash, caption=Debian snippet]
+$ apt install vim 
+\end{lstlisting}
+
+\begin{lstlisting}[language=python, caption=Python snippet]
+>>> print "hello world"
+\end{lstlisting}
+\end{frame}
+
 \subsection{No Starch Press Style}
 
 \end{document}
