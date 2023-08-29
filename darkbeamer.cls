@@ -100,6 +100,7 @@
 % 					Outer Packages
 % ----------------------------------------------
 \RequirePackage{listings}			% Code snippets
+\RequirePackage{menukeys}			% Keyboard and filepaths
 
 % Defining theme
 \usetheme{\mytheme}
@@ -194,3 +195,16 @@
 	frameround = tttt
 }
 \lstset{style=mystyle}
+
+% ----------------------------------------------
+% 					Menu Keys config
+% ----------------------------------------------
+\newmenucolortheme{menucolors}{named}{background}{foreground}{foreground}
+
+\changemenucolortheme{roundedmenus}{menucolors}
+\changemenucolortheme{roundedkeys}{menucolors}
+\changemenucolortheme{pathswithblackfolder}{menucolors}
+
+\renewmenumacro{\menu}[>]{roundedmenus}
+\renewmenumacro{\keys}[+]{roundedkeys}
+\renewmenumacro{\directory}[/]{pathswithblackfolder}

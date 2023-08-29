@@ -1,10 +1,10 @@
 \beamer@sectionintoc {1}{Basic Formating}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{Emphasis Text and Columns}{3}{0}{1}
-\beamer@subsectionintoc {1}{2}{Images}{4}{0}{1}
-\beamer@subsectionintoc {1}{3}{Tables}{4}{0}{1}
-\beamer@sectionintoc {2}{Blocks}{4}{0}{2}
-\beamer@subsectionintoc {2}{1}{Beamer Blocks}{4}{0}{2}
-\beamer@subsectionintoc {2}{2}{Tcolorbox Blocks}{4}{0}{2}
-\beamer@sectionintoc {3}{Snippets}{4}{0}{3}
-\beamer@subsectionintoc {3}{1}{Code Snippets}{4}{0}{3}
-\beamer@subsectionintoc {3}{2}{Console snippets}{5}{0}{3}
+\beamer@subsectionintoc {1}{2}{Images}{5}{0}{1}
+\beamer@subsectionintoc {1}{3}{Tables}{5}{0}{1}
+\beamer@sectionintoc {2}{Blocks}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Beamer Blocks}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{Tcolorbox Blocks}{5}{0}{2}
+\beamer@sectionintoc {3}{Snippets}{5}{0}{3}
+\beamer@subsectionintoc {3}{1}{Code Snippets}{5}{0}{3}
+\beamer@subsectionintoc {3}{2}{Console snippets}{6}{0}{3}
