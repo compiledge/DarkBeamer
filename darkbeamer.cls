@@ -89,7 +89,15 @@
 % ----------------------------------------------
 % 					Theme customization
 % ----------------------------------------------
+% Lists
+\setbeamertemplate{itemize items}{$\color{foreground}\bullet$}
+\setbeamertemplate{enumerate items}[square]
 
+% Remove shadow and borders on title page
+\setbeamertemplate{title page}[default]
+
+% Suppress the navigation symbols
+\beamertemplatenavigationsymbolsempty
 
 % ----------------------------------------------
 % 					Color Theme customization
@@ -102,7 +110,7 @@
 \setbeamercolor{frametitle}{fg=foreground}
 
 % Titles
-\setbeamercolor{titlelike}{fg=color1, bg=background!95}
+\setbeamercolor{titlelike}{fg=color1, bg=background}
 \setbeamercolor{title}{fg=color1, bg=background!95}
 
 % Structure
@@ -133,16 +141,4 @@
 % \setbeamercolor{block title}{bg=blue}
 % \setbeamercolor{block title example}{use={normal text,example text},fg=example text.fg!75!normal text.fg,bg=normal text.bg!75!black}
 % \setbeamercolor{fine separation line}{}
-% \setbeamercolor{item projected}{fg=black}
 % \setbeamercolor{separation line}{}
-%
-%
-% % Lists
-% \setbeamertemplate{itemize items}{$\color{foreground}\bullet$}
-%
-% % \setbeamertemplate{enumerate item}[]
-%
-% \setbeamertemplate{title page}[default]
-%
-% % Suppress the navigation symbols
-% \beamertemplatenavigationsymbolsempty
