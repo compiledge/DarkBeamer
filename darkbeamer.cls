@@ -41,6 +41,10 @@
 \DeclareOption{boxes}{\renewcommand{\mytheme}{boxes}}
 \DeclareOption{default}{\renewcommand{\mytheme}{default}}
 
+% ----------------------------------------------
+% 					Colorschemes
+% ----------------------------------------------
+
 % Dracula colorscheme
 \DeclareOption{dracula}{
 	\definecolor{background}{HTML}{282a36} % #282a36
@@ -81,22 +85,47 @@
 % Defining theme
 \usetheme{\mytheme}
 
-% % Custom colors
-%
-% % Text
+
+% ----------------------------------------------
+% 					Theme customization
+% ----------------------------------------------
+
+
+% ----------------------------------------------
+% 					Color Theme customization
+% ----------------------------------------------
+
+% Text
 \setbeamercolor{normal text}{bg=black,fg=foreground}
 \setbeamercolor{background canvas}{bg=background}
-% \setbeamercolor{alerted text}{fg=orange}
-% \setbeamercolor{frametitle}{fg=foreground}
+\setbeamercolor{alerted text}{fg=color1}
+\setbeamercolor{frametitle}{fg=foreground}
+
+% Titles
+\setbeamercolor{titlelike}{fg=color1, bg=background!95}
+\setbeamercolor{title}{fg=color1, bg=background!95}
+
+% Structure
+\setbeamercolor{structure}{bg=black, fg=background}
+
+% Palletes
+\setbeamercolor{palette sidebar primary}{use=normal text,fg=normal text.fg}
+\setbeamercolor{palette sidebar quaternary}{use=structure,fg=structure.fg}
+\setbeamercolor{palette sidebar secondary}{use=structure,fg=structure.fg}
+\setbeamercolor{palette sidebar tertiary}{use=normal text,fg=normal text.fg}
+
+% Sections
+\setbeamercolor{section in head/foot}{bg=background, fg=foreground}
+% \setbeamercolor{section in sidebar}{fg=brown}
+% \setbeamercolor{section in sidebar shaded}{fg=grey}
+
+% Sidebar
+% \setbeamercolor{sidebar}{bg=red}
+% \setbeamercolor{sidebar}{parent=palette primary}
+% \setbeamercolor{subsection in sidebar}{fg=brown}
+% \setbeamercolor{subsection in sidebar shaded}{fg=grey}
+
 %
-% % Titles
-% \setbeamercolor{titlelike}{fg=purple, bg=background!95}
-% \setbeamercolor{title}{fg=purple, bg=background!95}
-%
-%
-% % Lists
-%
-% \setbeamercolor{structure}{bg=black, fg=background}
 % \setbeamercolor{block body alerted}{bg=normal text.bg!90!black}
 % \setbeamercolor{block body}{bg=normal text.bg!90!black}
 % \setbeamercolor{block body example}{bg=normal text.bg!90!black}
@@ -105,21 +134,8 @@
 % \setbeamercolor{block title example}{use={normal text,example text},fg=example text.fg!75!normal text.fg,bg=normal text.bg!75!black}
 % \setbeamercolor{fine separation line}{}
 % \setbeamercolor{item projected}{fg=black}
-% \setbeamercolor{palette sidebar primary}{use=normal text,fg=normal text.fg}
-% \setbeamercolor{palette sidebar quaternary}{use=structure,fg=structure.fg}
-% \setbeamercolor{palette sidebar secondary}{use=structure,fg=structure.fg}
-% \setbeamercolor{palette sidebar tertiary}{use=normal text,fg=normal text.fg}
-% \setbeamercolor{section in sidebar}{fg=brown}
-% \setbeamercolor{section in sidebar shaded}{fg=grey}
 % \setbeamercolor{separation line}{}
-% \setbeamercolor{sidebar}{bg=red}
-% \setbeamercolor{sidebar}{parent=palette primary}
-% \setbeamercolor{subsection in sidebar}{fg=brown}
-% \setbeamercolor{subsection in sidebar shaded}{fg=grey}
 %
-% \setbeamercolor{section in head/foot}{bg=background, fg=foreground}
-%
-% % custom template
 %
 % % Lists
 % \setbeamertemplate{itemize items}{$\color{foreground}\bullet$}
