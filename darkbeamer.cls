@@ -45,6 +45,21 @@
 % 					Colorschemes
 % ----------------------------------------------
 
+% Defualt Colorscheme
+\definecolor{background}{HTML}{f8f8f2} % #f8f8f2
+\definecolor{foreground}{HTML}{282a36} % #282a36
+\definecolor{comment}{HTML}{6272a4} 	% #6272a4
+\definecolor{color1}{HTML}{bd93f9} 		% #bd93f9 % Titles
+\definecolor{color2}{HTML}{50fa7b} 		% #50fa7b % emphasis
+\definecolor{color3}{HTML}{ffb86c} 		% #ffb86c % Alerts
+\definecolor{color4}{HTML}{ff79c6} 		% #ff79c6
+\definecolor{color5}{HTML}{8be9fd} 		% #8be9fd
+\definecolor{color6}{HTML}{ff5555} 		% #ff5555
+\definecolor{color7}{HTML}{44475a} 		% #44475a
+\definecolor{color8}{HTML}{f1fa8c} 		% #f1fa8c
+\definecolor{url}{HTML}{f1fa8c} 			% #f1fa8c % URLs
+\definecolor{math}{HTML}{f1fa8c} 		% #f1fa8c % Math
+
 % Dracula colorscheme
 \DeclareOption{dracula}{
 	\definecolor{background}{HTML}{282a36} % #282a36
