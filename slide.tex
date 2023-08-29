@@ -17,38 +17,39 @@
 	\tableofcontents
 \end{frame}
 
-\section{Chapter 1}
-\begin{frame}{New frame 2}
-	Hello world!!! \alert{hello!!}
-	\begin{outline}
-		\1 GNU+Linux
-			\2 GNU Tools
-			\2 kernel Linux
-		\1 Mac OS
-		\1 Windows
-	\end{outline}
-	\begin{outline}[enumerate]
-		\1 Vim:
-			\2 Neovim
-			\2 Astrovim
-		\1 emacs
-	\end{outline}
-\end{frame}
-
-\section{Chapter 2}
-\begin{frame}{New frame 3}{Subtitle}
-	Hello world!!! \alert{hello!}
-\end{frame}
-
-\subsection{Columns}
-\begin{frame}
-	\frametitle{Example of columns}
+\section{Basic Formating}
+\subsection{Emphasis Text and Columns}
+\begin{frame}{Emphasis Text and Columns}
+	Text Effects:
 	\begin{columns}[c]
 		\column{.45\textwidth}
-		Contents of the first column
+		\begin{outline}
+			\1 \emph{Emphasis text}
+			\1 \textbf{Bold text}
+			\1 \textit{Italic text}
+			\1 \texttt{Teletype text}
+			\1 \alert{Alert text}
+			\1 \textrm{Roman font text}
+		\end{outline}
 		\column{.45\textwidth}
-		Contents split \\ into two lines
+		\begin{outline}[enumerate]
+			\1 Vim:
+			\2 Neovim
+			\2 Astrovim
+			\1 emacs
+		\end{outline}
 	\end{columns}
 \end{frame}
+\subsection{Images}
+\subsection{Tables}
+
+\section{Blocks}
+\subsection{Beamer Blocks}
+\subsection{Tcolorbox Blocks}
+
+\section{Snippets}
+\subsection{Code snippets}
+\subsection{Console snippets}
+\subsection{No Starch Press Style}
 
 \end{document}
