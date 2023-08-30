@@ -1,8 +1,0 @@
-\frametitle{Code Snippets}
-\begin{lstlisting}[language=bash, caption=Debian snippet]
-$ apt install vim
-\end{lstlisting}
-
-\begin{lstlisting}[language=python, caption=Python snippet]
->>> print "hello world"
-\end{lstlisting}
