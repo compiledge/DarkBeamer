@@ -93,6 +93,41 @@
 	\definecolor{math}{HTML}{f1fa8c} 		% #f1fa8c
 }
 
+% TokyoNight Storm
+\DeclareOption{tokyonightstorm}{
+	\definecolor{background}{HTML}{24283b}	% #24283b
+	\definecolor{foreground}{HTML}{c0caf5}	% #c0caf5
+	\definecolor{color1}{HTML}{f7768e}		% #f7768e
+	\definecolor{color2}{HTML}{9ece6a}		% #9ece6a
+	\definecolor{color3}{HTML}{e0af68}		% #e0af68
+	\definecolor{color4}{HTML}{7aa2f7}		% #7aa2f7
+	\definecolor{color5}{HTML}{bb9af7}		% #bb9af7
+	\definecolor{color6}{HTML}{7dcfff}		% #7dcfff
+	\definecolor{color7}{HTML}{a9b1d6}		% #a9b1d6
+	\definecolor{color8}{HTML}{ff9e64}		% #ff9e64
+	\definecolor{url}{HTML}{73daca}			% #73daca
+	\definecolor{math}{HTML}{db4b4b}			% #db4b4b
+}
+
+% TokyoNight Day
+\DeclareOption{tokyonightday}{
+	\definecolor{background}{HTML}{e1e2e7}	% #e1e2e7
+	\definecolor{foreground}{HTML}{3760bf}	% #3760bf
+	\definecolor{color1}{HTML}{f52a65}		% #f52a65
+	\definecolor{color2}{HTML}{587539}		% #587539
+	\definecolor{color3}{HTML}{8c6c3e}		% #8c6c3e
+	\definecolor{color4}{HTML}{2e7de9}		% #2e7de9
+	\definecolor{color5}{HTML}{9854f1}		% #9854f1
+	\definecolor{color6}{HTML}{007197}		% #007197
+	\definecolor{color7}{HTML}{6172b0}		% #6172b0
+	\definecolor{color8}{HTML}{387068}		% #387068
+	\definecolor{url}{HTML}{b15c00}			% #b15c00
+	\definecolor{math}{HTML}{c64343}			% #c64343
+}
+
+% ----------------------------------------------
+% 					Loading opts and class
+% ----------------------------------------------
 \ProcessOptions\relax
 \LoadClass{beamer}
 
