@@ -132,6 +132,34 @@
 	\definecolor{math}{HTML}{c64343}			% #c64343
 }
 
+% Solarized Dark
+\DeclareOption{solarizeddark}{
+	\definecolor{background}{HTML}{073642}	% #073642
+	\definecolor{foreground}{HTML}{eee8d5}	% #eee8d5
+	\definecolor{color1}{HTML}{d33682}		% #d33682
+	\definecolor{color2}{HTML}{859900}		% #859900
+	\definecolor{color3}{HTML}{b58900}		% #b58900
+	\definecolor{color4}{HTML}{dc322f}		% #dc322f
+	\definecolor{color5}{HTML}{cb4b16}		% #cb4b16
+	\definecolor{color6}{HTML}{6c71c4}		% #6c71c4
+	\definecolor{url}{HTML}{268bd2}			% #268bd2
+	\definecolor{math}{HTML}{2aa198}			% #2aa198
+}
+
+% Solarized Light
+\DeclareOption{solarizedlight}{
+	\definecolor{background}{HTML}{eee8d5}	% #eee8d5
+	\definecolor{foreground}{HTML}{073642}	% #073642
+	\definecolor{color1}{HTML}{d33682}		% #d33682
+	\definecolor{color2}{HTML}{859900}		% #859900
+	\definecolor{color3}{HTML}{b58900}		% #b58900
+	\definecolor{color4}{HTML}{dc322f}		% #dc322f
+	\definecolor{color5}{HTML}{cb4b16}		% #cb4b16
+	\definecolor{color6}{HTML}{6c71c4}		% #6c71c4
+	\definecolor{url}{HTML}{268bd2}			% #268bd2
+	\definecolor{math}{HTML}{2aa198}			% #2aa198
+}
+
 % ----------------------------------------------
 % 					Loading opts and class
 % ----------------------------------------------
