@@ -44,21 +44,28 @@
 % ----------------------------------------------
 % 					Colorschemes
 % ----------------------------------------------
+% Standard color codes
+% color 1: titles
+% color 2: good
+% color 3: warning
+% color 4: bad
+% color 5: emphasis
+% color 6: url
 
 % Defualt Colorscheme
 \definecolor{background}{HTML}{f8f8f2} % #f8f8f2
 \definecolor{foreground}{HTML}{282a36} % #282a36
 \definecolor{comment}{HTML}{6272a4} 	% #6272a4
-\definecolor{color1}{HTML}{bd93f9} 		% #bd93f9 % Titles
-\definecolor{color2}{HTML}{50fa7b} 		% #50fa7b % emphasis
-\definecolor{color3}{HTML}{ffb86c} 		% #ffb86c % Alerts
-\definecolor{color4}{HTML}{ff79c6} 		% #ff79c6
-\definecolor{color5}{HTML}{8be9fd} 		% #8be9fd
-\definecolor{color6}{HTML}{ff5555} 		% #ff5555
-\definecolor{color7}{HTML}{44475a} 		% #44475a
-\definecolor{color8}{HTML}{f1fa8c} 		% #f1fa8c
-\definecolor{url}{HTML}{f1fa8c} 			% #f1fa8c % URLs
-\definecolor{math}{HTML}{f1fa8c} 		% #f1fa8c % Math
+\definecolor{color1}{HTML}{bd93f9} 		% #bd93f9
+\definecolor{color2}{HTML}{50fa7b} 		% #50fa7b
+\definecolor{color3}{HTML}{ffb86c} 		% #ffb86c
+\definecolor{color4}{HTML}{ff5555} 		% #ff5555
+\definecolor{color5}{HTML}{ff79c6} 		% #ff79c6
+\definecolor{color6}{HTML}{8be9fd} 		% #8be9fd
+\definecolor{color7}{HTML}{f1fa8c} 		% #f1fa8c
+\definecolor{color8}{HTML}{44475a} 		% #44475a
+\definecolor{url}{HTML}{f1fa8c} 			% #f1fa8c
+\definecolor{math}{HTML}{f1fa8c} 		% #f1fa8c
 
 % Dracula colorscheme
 \DeclareOption{dracula}{
@@ -68,9 +75,9 @@
 	\definecolor{color1}{HTML}{bd93f9} 		% #bd93f9
 	\definecolor{color2}{HTML}{50fa7b} 		% #50fa7b
 	\definecolor{color3}{HTML}{ffb86c} 		% #ffb86c
-	\definecolor{color4}{HTML}{ff79c6} 		% #ff79c6
-	\definecolor{color5}{HTML}{8be9fd} 		% #8be9fd
-	\definecolor{color6}{HTML}{ff5555} 		% #ff5555
+	\definecolor{color4}{HTML}{ff5555} 		% #ff5555
+	\definecolor{color5}{HTML}{ff79c6} 		% #ff79c6
+	\definecolor{color6}{HTML}{8be9fd} 		% #8be9fd
 	\definecolor{color7}{HTML}{44475a} 		% #44475a
 	\definecolor{color8}{HTML}{f1fa8c} 		% #f1fa8c
 	\definecolor{url}{HTML}{f1fa8c} 			% #f1fa8c
@@ -82,12 +89,12 @@
 	\definecolor{background}{HTML}{282828} % #282828
 	\definecolor{foreground}{HTML}{ebdbb2} % #ebdbb2
 	\definecolor{comment}{HTML}{928374} 	% #928374
-	\definecolor{color1}{HTML}{cc241d} 		% #cc241d
+	\definecolor{color1}{HTML}{b16286} 		% #b16286
 	\definecolor{color2}{HTML}{98971a} 		% #98971a
 	\definecolor{color3}{HTML}{d79921} 		% #d79921
-	\definecolor{color4}{HTML}{458588} 		% #458588
-	\definecolor{color5}{HTML}{b16286} 		% #b16286
-	\definecolor{color6}{HTML}{689d6a} 		% #689d6a
+	\definecolor{color4}{HTML}{cc241d} 		% #cc241d
+	\definecolor{color5}{HTML}{689d6a} 		% #689d6a
+	\definecolor{color6}{HTML}{458588} 		% #458588
 	\definecolor{color7}{HTML}{a89984} 		% #a89984
 	\definecolor{url}{HTML}{f1fa8c} 			% #f1fa8c
 	\definecolor{math}{HTML}{f1fa8c} 		% #f1fa8c
@@ -97,10 +104,10 @@
 \DeclareOption{tokyonightstorm}{
 	\definecolor{background}{HTML}{24283b}	% #24283b
 	\definecolor{foreground}{HTML}{c0caf5}	% #c0caf5
-	\definecolor{color1}{HTML}{f7768e}		% #f7768e
+	\definecolor{color1}{HTML}{7aa2f7}		% #7aa2f7
 	\definecolor{color2}{HTML}{9ece6a}		% #9ece6a
 	\definecolor{color3}{HTML}{e0af68}		% #e0af68
-	\definecolor{color4}{HTML}{7aa2f7}		% #7aa2f7
+	\definecolor{color4}{HTML}{f7768e}		% #f7768e
 	\definecolor{color5}{HTML}{bb9af7}		% #bb9af7
 	\definecolor{color6}{HTML}{7dcfff}		% #7dcfff
 	\definecolor{color7}{HTML}{a9b1d6}		% #a9b1d6
@@ -113,10 +120,10 @@
 \DeclareOption{tokyonightday}{
 	\definecolor{background}{HTML}{e1e2e7}	% #e1e2e7
 	\definecolor{foreground}{HTML}{3760bf}	% #3760bf
-	\definecolor{color1}{HTML}{f52a65}		% #f52a65
+	\definecolor{color1}{HTML}{2e7de9}		% #2e7de9
 	\definecolor{color2}{HTML}{587539}		% #587539
 	\definecolor{color3}{HTML}{8c6c3e}		% #8c6c3e
-	\definecolor{color4}{HTML}{2e7de9}		% #2e7de9
+	\definecolor{color4}{HTML}{f52a65}		% #f52a65
 	\definecolor{color5}{HTML}{9854f1}		% #9854f1
 	\definecolor{color6}{HTML}{007197}		% #007197
 	\definecolor{color7}{HTML}{6172b0}		% #6172b0
@@ -163,7 +170,7 @@
 % Text
 \setbeamercolor{normal text}{fg=foreground}
 \setbeamercolor{background canvas}{bg=background}
-\setbeamercolor{alerted text}{fg=color1}
+\setbeamercolor{alerted text}{fg=color5}
 \setbeamercolor{frametitle}{fg=foreground}
 
 % Titles
@@ -265,6 +272,14 @@
 	coltext=foreground,
 	title=\faCheck \hspace{0.15cm} #1
 }
+\newtcolorbox{wbox}[1]{		% Warning box
+	colframe=color3,
+	coltitle=color3,
+	colbacktitle=background,
+	colback=background,
+	coltext=foreground,
+	title=\faWarning \hspace{0.15cm} #1
+}
 \newtcolorbox{bbox}[1]{		% Bad box
 	colframe=color4,
 	coltitle=color4,
@@ -273,49 +288,41 @@
 	coltext=foreground,
 	title=\faClose \hspace{0.15cm} #1
 }
-\newtcolorbox{wbox}[1]{		% Warning box
-	colframe=color5,
-	coltitle=color5,
-	colbacktitle=background,
-	colback=background,
-	coltext=foreground,
-	title=\faWarning \hspace{0.15cm} #1
-}
 \newtcolorbox{lbox}[1]{		% Link box
-	colframe=url,
-	coltitle=url,
+	colframe=color6,
+	coltitle=color6,
 	colbacktitle=background,
 	colback=background,
 	coltext=foreground,
 	title= \faPaperPlaneO \hspace{0.15cm} #1
 }
 \newtcolorbox{cbox}[1]{		% Code box
-	colframe=math,
-	coltitle=math,
+	colframe=foreground,
+	coltitle=foreground,
 	colbacktitle=background,
 	colback=background,
 	coltext=foreground,
 	title= \faCode \hspace{0.15cm} #1
 }
 \newtcolorbox{githbox}[1]{	% Github box
-	colframe=math,
-	coltitle=math,
+	colframe=foreground,
+	coltitle=foreground,
 	colbacktitle=background,
 	colback=background,
 	coltext=foreground,
 	title= \faGithubAlt \hspace{0.15cm} #1
 }
 \newtcolorbox{forkbox}[1]{	% Fork box
-	colframe=math,
-	coltitle=math,
+	colframe=foreground,
+	coltitle=foreground,
 	colbacktitle=background,
 	colback=background,
 	coltext=foreground,
 	title= \faCodeFork \hspace{0.15cm} #1
 }
 \newtcolorbox{gitlbox}[1]{	% Gitlab box
-	colframe=math,
-	coltitle=math,
+	colframe=foreground,
+	coltitle=foreground,
 	colbacktitle=background,
 	colback=background,
 	coltext=foreground,
