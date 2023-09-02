@@ -136,6 +136,8 @@
 % ----------------------------------------------
 \RequirePackage{listings}			% Code snippets
 \RequirePackage{menukeys}			% Keyboard and filepaths
+\RequirePackage{fontawesome}		% Awesome symbols
+\RequirePackage{tcolorbox}			% Modern text blocks
 
 % Defining theme
 \usetheme{\mytheme}
@@ -243,3 +245,79 @@
 \renewmenumacro{\menu}[>]{roundedmenus}
 \renewmenumacro{\keys}[+]{roundedkeys}
 \renewmenumacro{\directory}[/]{pathswithblackfolder}
+
+% ----------------------------------------------
+% 					Tcolorbox Customization
+% ----------------------------------------------
+\newtcolorbox{tbox}[1]{		% Text box
+	colframe=foreground,
+	coltitle=foreground,
+	colbacktitle=background,
+	colback=background,
+	coltext=foreground,
+	title=\faThumbTack \hspace{0.15cm} #1
+}
+\newtcolorbox{gbox}[1]{		% Good box
+	colframe=color2,
+	coltitle=color2,
+	colbacktitle=background,
+	colback=background,
+	coltext=foreground,
+	title=\faCheck \hspace{0.15cm} #1
+}
+\newtcolorbox{bbox}[1]{		% Bad box
+	colframe=color4,
+	coltitle=color4,
+	colbacktitle=background,
+	colback=background,
+	coltext=foreground,
+	title=\faClose \hspace{0.15cm} #1
+}
+\newtcolorbox{wbox}[1]{		% Warning box
+	colframe=color5,
+	coltitle=color5,
+	colbacktitle=background,
+	colback=background,
+	coltext=foreground,
+	title=\faWarning \hspace{0.15cm} #1
+}
+\newtcolorbox{lbox}[1]{		% Link box
+	colframe=url,
+	coltitle=url,
+	colbacktitle=background,
+	colback=background,
+	coltext=foreground,
+	title= \faPaperPlaneO \hspace{0.15cm} #1
+}
+\newtcolorbox{cbox}[1]{		% Code box
+	colframe=math,
+	coltitle=math,
+	colbacktitle=background,
+	colback=background,
+	coltext=foreground,
+	title= \faCode \hspace{0.15cm} #1
+}
+\newtcolorbox{githbox}[1]{	% Github box
+	colframe=math,
+	coltitle=math,
+	colbacktitle=background,
+	colback=background,
+	coltext=foreground,
+	title= \faGithubAlt \hspace{0.15cm} #1
+}
+\newtcolorbox{forkbox}[1]{	% Fork box
+	colframe=math,
+	coltitle=math,
+	colbacktitle=background,
+	colback=background,
+	coltext=foreground,
+	title= \faCodeFork \hspace{0.15cm} #1
+}
+\newtcolorbox{gitlbox}[1]{	% Gitlab box
+	colframe=math,
+	coltitle=math,
+	colbacktitle=background,
+	colback=background,
+	coltext=foreground,
+	title= \faGitlab \hspace{0.15cm} #1
+}
