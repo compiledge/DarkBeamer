@@ -5,6 +5,7 @@
 % \documentclass[aspectratio=169,tokyonightstorm,Frankfurt,12pt]{darkbeamer}
 \documentclass[aspectratio=169,dracula,Frankfurt, 90pt]{darkbeamer}
 
+
 \author{author}
 \title{title}
 \subtitle{subtitle}
@@ -129,5 +130,18 @@ $ apt install vim
 \end{frame}
 
 \subsection{No Starch Press Style}
+
+\begin{frame}[fragile]{No Starch Press Style}
+\begin{lstlisting}[language=c, caption=C language example]
+#include<stdio.h>
+
+int main(){
+
+(*@\lnnum{6}@*)  return 0;
+(*@\lnnum{1}@*)  printf("Hello World\n");
+}
+\end{lstlisting}
+The \lnnum{6} item should be the last instruction!
+\end{frame}
 
 \end{document}

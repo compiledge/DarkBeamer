@@ -174,6 +174,7 @@
 \RequirePackage{fontawesome}		% Awesome symbols
 \RequirePackage{tcolorbox}			% Modern text blocks
 \RequirePackage{tikzsymbols}		% Custom symbols on tex
+\RequirePackage{circledsteps}		% Custom number symbols
 
 % Defining theme
 \usetheme{\mytheme}
@@ -268,6 +269,22 @@
 	frameround = tttt
 }
 \lstset{style=mystyle}
+
+% No Starch Press Style
+% Custom symbols for lstlisting environment
+% Ref: https://zuttobenkyou.wordpress.com/tag/lstlisting/
+\newcommand{\lnnum}[1]
+{\ifthenelse{#1 =  1}{\Circled{1}}
+{\ifthenelse{#1 =  2}{\Circled{2}}
+{\ifthenelse{#1 =  3}{\Circled{3}}
+{\ifthenelse{#1 =  4}{\Circled{4}}
+{\ifthenelse{#1 =  5}{\Circled{5}}
+{\ifthenelse{#1 =  6}{\Circled{6}}
+{\ifthenelse{#1 =  7}{\Circled{7}}
+{\ifthenelse{#1 =  8}{\Circled{8}}
+{\ifthenelse{#1 =  9}{\Circled{9}}
+{\ifthenelse{#1 =  10}{\Circled{10}}
+}}}}}}}}}}
 
 % ----------------------------------------------
 % 					Menu Keys config
