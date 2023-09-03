@@ -173,6 +173,7 @@
 \RequirePackage{menukeys}			% Keyboard and filepaths
 \RequirePackage{fontawesome}		% Awesome symbols
 \RequirePackage{tcolorbox}			% Modern text blocks
+\RequirePackage{tikzsymbols}		% Custom symbols on tex
 
 % Defining theme
 \usetheme{\mytheme}
@@ -280,6 +281,12 @@
 \renewmenumacro{\menu}[>]{roundedmenus}
 \renewmenumacro{\keys}[+]{roundedkeys}
 \renewmenumacro{\directory}[/]{pathswithblackfolder}
+
+% ----------------------------------------------
+% 					Custom symbols
+% ----------------------------------------------
+\newcommand{\gd}{\color{color2} \Smiley}
+\newcommand{\bd}{\color{color4} \Sadey}
 
 % ----------------------------------------------
 % 					Tcolorbox Customization
