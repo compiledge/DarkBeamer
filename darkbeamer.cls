@@ -85,7 +85,7 @@
 }
 
 % Gruvbox colorscheme
-\DeclareOption{gruvbox}{
+\DeclareOption{gruvbox-dark}{
 	\definecolor{background}{HTML}{282828} % #282828
 	\definecolor{foreground}{HTML}{ebdbb2} % #ebdbb2
 	\definecolor{comment}{HTML}{928374} 	% #928374
@@ -101,7 +101,7 @@
 }
 
 % TokyoNight Storm
-\DeclareOption{tokyonightstorm}{
+\DeclareOption{tokyonight-storm}{
 	\definecolor{background}{HTML}{24283b}	% #24283b
 	\definecolor{foreground}{HTML}{c0caf5}	% #c0caf5
 	\definecolor{color1}{HTML}{7aa2f7}		% #7aa2f7
@@ -117,7 +117,7 @@
 }
 
 % TokyoNight Day
-\DeclareOption{tokyonightday}{
+\DeclareOption{tokyonight-day}{
 	\definecolor{background}{HTML}{e1e2e7}	% #e1e2e7
 	\definecolor{foreground}{HTML}{3760bf}	% #3760bf
 	\definecolor{color1}{HTML}{2e7de9}		% #2e7de9
@@ -133,7 +133,7 @@
 }
 
 % Solarized Dark
-\DeclareOption{solarizeddark}{
+\DeclareOption{solarized-dark}{
 	\definecolor{background}{HTML}{073642}	% #073642
 	\definecolor{foreground}{HTML}{eee8d5}	% #eee8d5
 	\definecolor{color1}{HTML}{d33682}		% #d33682
@@ -147,7 +147,7 @@
 }
 
 % Solarized Light
-\DeclareOption{solarizedlight}{
+\DeclareOption{solarized-light}{
 	\definecolor{background}{HTML}{eee8d5}	% #eee8d5
 	\definecolor{foreground}{HTML}{073642}	% #073642
 	\definecolor{color1}{HTML}{d33682}		% #d33682
@@ -158,6 +158,34 @@
 	\definecolor{color6}{HTML}{6c71c4}		% #6c71c4
 	\definecolor{url}{HTML}{268bd2}			% #268bd2
 	\definecolor{math}{HTML}{2aa198}			% #2aa198
+}
+
+% Everforest Dark
+% Ref: https://github.com/sainnhe/everforest
+\DeclareOption{everforest-dark}{
+	\definecolor{background}{HTML}{272e33}	% #272e33
+	\definecolor{foreground}{HTML}{d3c6aa}	% #d3c6aa
+	\definecolor{color1}{HTML}{dbbc7f}		% #dbbc7f
+	\definecolor{color2}{HTML}{83c092}		% #83c092
+	\definecolor{color3}{HTML}{e69875}		% #e69875
+	\definecolor{color4}{HTML}{e67e80}		% #e67e80
+	\definecolor{color5}{HTML}{d699b6}		% #d699b6
+	\definecolor{url}{HTML}{7fbbb3}			% #7fbbb3
+	\definecolor{math}{HTML}{a7c080}			% #a7c080
+}
+
+% Everforest Light
+% Ref: https://github.com/sainnhe/everforest
+\DeclareOption{everforest-light}{
+	\definecolor{background}{HTML}{fffbef}	% #fffbef
+	\definecolor{foreground}{HTML}{5c6a72}	% #5c6a72
+	\definecolor{color1}{HTML}{dfa000}		% #dfa000
+	\definecolor{color2}{HTML}{8da101}		% #8da101
+	\definecolor{color3}{HTML}{f57d26}		% #f57d26
+	\definecolor{color4}{HTML}{f85552}		% #f85552
+	\definecolor{color5}{HTML}{3a94c5}		% #3a94c5
+	\definecolor{url}{HTML}{35a77c}			% #35a77c
+	\definecolor{math}{HTML}{df69ba}			% #df69ba
 }
 
 % ----------------------------------------------
