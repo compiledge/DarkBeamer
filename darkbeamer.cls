@@ -274,14 +274,6 @@
 % \setbeamercolor{sidebar}{parent=palette primary}
 % \setbeamercolor{subsection in sidebar}{fg=brown}
 % \setbeamercolor{subsection in sidebar shaded}{fg=grey}
-
-%
-% \setbeamercolor{block body alerted}{bg=normal text.bg!90!black}
-% \setbeamercolor{block body}{bg=normal text.bg!90!black}
-% \setbeamercolor{block body example}{bg=normal text.bg!90!black}
-% \setbeamercolor{block title alerted}{use={normal text,alerted text},fg=alerted text.fg!75!normal text.fg,bg=normal text.bg!75!black}
-% \setbeamercolor{block title}{bg=blue}
-% \setbeamercolor{block title example}{use={normal text,example text},fg=example text.fg!75!normal text.fg,bg=normal text.bg!75!black}
 % \setbeamercolor{fine separation line}{}
 % \setbeamercolor{separation line}{}
 
@@ -348,7 +340,29 @@
 \newcommand{\bd}{\color{color4} \Sadey}
 
 % ----------------------------------------------
-% 					Tcolorbox Customization
+% 					Beamer Blocks 
+% ----------------------------------------------
+% Colors blocks
+\setbeamercolor{block body}{fg=foreground,bg=background!85}
+\setbeamercolor{block title}{fg=foreground,bg=background!95}
+
+\setbeamercolor{block body alerted}{fg=background,bg=color4!95}
+\setbeamercolor{block title alerted}{fg=background,bg=color4}
+
+\setbeamercolor{block body example}{fg=background,bg=color3!95}
+\setbeamercolor{block title example}{fg=background,bg=color3}
+
+\setbeamercolor{block body example}{fg=background,bg=color3!95}
+\setbeamercolor{block title example}{fg=background,bg=color3}
+
+% Color theorem blocks
+\setbeamercolor{block theorem}{fg=background,bg=color5}
+
+% Style
+\setbeamertemplate{blocks}[rounded][shadow=false]
+
+% ----------------------------------------------
+% 					Tcolorbox Blocks
 % ----------------------------------------------
 \newtcolorbox{tbox}[1]{		% Text box
 	colframe=foreground,

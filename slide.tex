@@ -2,9 +2,9 @@
 % \documentclass[aspectratio=169,tokyonightday,Frankfurt,12pt]{darkbeamer}
 % \documentclass[aspectratio=169,solarizeddark,Frankfurt,12pt]{darkbeamer}
 % \documentclass[aspectratio=169,solarizedlight,Frankfurt,12pt]{darkbeamer}
-% \documentclass[aspectratio=169,tokyonightstorm,Frankfurt,12pt]{darkbeamer}
+\documentclass[aspectratio=169,tokyonight-storm,Frankfurt,12pt]{darkbeamer}
 % \documentclass[aspectratio=169,dracula,Frankfurt, 90pt]{darkbeamer}
-\documentclass[aspectratio=169,gruvbox-light,Frankfurt, 90pt]{darkbeamer}
+% \documentclass[aspectratio=169,gruvbox-light,Frankfurt, 90pt]{darkbeamer}
 
 
 \author{author}
@@ -65,6 +65,67 @@
 
 \section{Blocks}
 \subsection{Beamer Blocks}
+
+\begin{frame}[allowframebreaks]{Beamer Blocks}
+	\begin{block}{Standard block title}
+		hello world!
+		\begin{outline}
+			\1 Item
+			\1 Item
+		\end{outline}
+
+	\end{block}
+
+	\begin{alertblock}{Alert block title}
+		hello world!
+	\end{alertblock}
+
+	\begin{exampleblock}{Example block title}
+		hello world!
+	\end{exampleblock}
+\end{frame}
+
+\begin{frame}[allowframebreaks]{Theorem Environments}
+
+	\begin{theorem}
+		Hello World!
+	\end{theorem}
+
+	\begin{corollary}
+		Hello World!
+	\end{corollary}
+
+	\begin{definition}
+		Hello World!
+	\end{definition}
+
+	\begin{definitions}
+		Hello World!
+	\end{definitions}
+
+	\begin{fact}
+		Hello World!
+	\end{fact}
+
+	\begin{corollary}
+		Hello World!
+	\end{corollary}
+
+	\begin{lemma}
+		Hello World!
+	\end{lemma}
+
+	\begin{example}
+		Hello World!
+	\end{example}
+
+	\begin{examples}
+		Hello World!
+	\end{examples}
+
+\end{frame}
+
+
 \subsection{Tcolorbox Blocks}
 
 \begin{frame}[allowframebreaks]{Tcolorbox Blocks}
