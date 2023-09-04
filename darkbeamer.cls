@@ -84,7 +84,8 @@
 	\definecolor{math}{HTML}{f1fa8c} 		% #f1fa8c
 }
 
-% Gruvbox colorscheme
+% Gruvbox dark
+% ref: https://github.com/morhetz/gruvbox
 \DeclareOption{gruvbox-dark}{
 	\definecolor{background}{HTML}{282828} % #282828
 	\definecolor{foreground}{HTML}{ebdbb2} % #ebdbb2
@@ -98,6 +99,19 @@
 	\definecolor{color7}{HTML}{a89984} 		% #a89984
 	\definecolor{url}{HTML}{f1fa8c} 			% #f1fa8c
 	\definecolor{math}{HTML}{f1fa8c} 		% #f1fa8c
+}
+
+% Gruvbox light
+% ref: https://github.com/morhetz/gruvbox
+\DeclareOption{gruvbox-light}{
+	\definecolor{background}{HTML}{fbf1c7}	% #fbf1c7
+	\definecolor{foreground}{HTML}{3c3836}	% #3c3836
+	\definecolor{color1}{HTML}{b16286}		% #b16286
+	\definecolor{color2}{HTML}{98971a}		% #98971a
+	\definecolor{color3}{HTML}{d79921}		% #d79921
+	\definecolor{color4}{HTML}{cc241d}		% #cc241d
+	\definecolor{color6}{HTML}{689d6a}		% #689d6a
+	\definecolor{url}{HTML}{458588}			% #458588
 }
 
 % TokyoNight Storm
