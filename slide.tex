@@ -2,8 +2,8 @@
 % \documentclass[aspectratio=169,tokyonightday,Frankfurt,12pt]{darkbeamer}
 % \documentclass[aspectratio=169,solarizeddark,Frankfurt,12pt]{darkbeamer}
 % \documentclass[aspectratio=169,solarizedlight,Frankfurt,12pt]{darkbeamer}
-\documentclass[aspectratio=169,tokyonight-storm,Frankfurt,12pt]{darkbeamer}
-% \documentclass[aspectratio=169,dracula,Frankfurt, 90pt]{darkbeamer}
+% \documentclass[aspectratio=169,tokyonight-storm,Frankfurt,12pt]{darkbeamer}
+\documentclass[aspectratio=169,dracula,Frankfurt, 90pt]{darkbeamer}
 % \documentclass[aspectratio=169,gruvbox-light,Frankfurt, 90pt]{darkbeamer}
 
 
@@ -19,6 +19,7 @@
 \end{frame}
 
 \begin{frame}{Summary}
+	\label{contents}
 	\tableofcontents
 \end{frame}
 
@@ -107,10 +108,6 @@
 		Hello World!
 	\end{fact}
 
-	\begin{corollary}
-		Hello World!
-	\end{corollary}
-
 	\begin{lemma}
 		Hello World!
 	\end{lemma}
@@ -167,6 +164,7 @@
 \end{frame}
 
 \section{Snippets}
+\label{snippets}
 \subsection{Code Snippets}
 
 \begin{frame}[fragile]{Code Snippets}
@@ -204,6 +202,25 @@ int main(){
 }
 \end{lstlisting}
 The \lnnum{6} item should be the last instruction!
+\end{frame}
+
+\section{Hyperlinks \& Buttons}
+
+\begin{frame}{Hyperlinks \& Buttons}
+	More options can be found in \href{www.duckduckgo.com}{Duck Duck Go}, {\it i.e.}, \url{www.duckduckgo.com}.
+\begin{outline}
+	\1 Contenst page:
+		\2 \hyperlink{contents}{\beamerbutton{contents page}}
+	\1 Blocks section:
+		\2 \hyperlink{blocks}{\beamergotobutton{columns section}}
+		\2 \hyperlink{blocks}{\beamerskipbutton{block section}}
+		\2 \hyperlink{blocks}{\beamerreturnbutton{block section}}
+	\1 Snippets section:
+		\2 \hyperlink{snippets}{\beamergotobutton{code section}}
+		\2 \hyperlink{snippets}{\beamerskipbutton{code section}}
+		\2 \hyperlink{snippets}{\beamerreturnbutton{code section}}
+\end{outline}
+
 \end{frame}
 
 \end{document}

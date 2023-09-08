@@ -436,3 +436,13 @@
 	coltext=foreground,
 	title= \faGitlab \hspace{0.15cm} #1
 }
+
+% ----------------------------------------------
+% 					Hyperlynks & Buttons
+% ----------------------------------------------
+\hypersetup{
+    colorlinks=true,
+    linkcolor=foreground,
+	 filecolor=url,
+    urlcolor=url,
+}
