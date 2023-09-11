@@ -50,7 +50,7 @@
 % color 3: warning
 % color 4: bad
 % color 5: emphasis
-% color 6: url
+% color 6: ...
 
 % Defualt Colorscheme
 \definecolor{background}{HTML}{f8f8f2} % #f8f8f2
@@ -129,6 +129,40 @@
 	\definecolor{url}{HTML}{73daca}			% #73daca
 	\definecolor{math}{HTML}{db4b4b}			% #db4b4b
 }
+
+% TokyoNight Moon
+\DeclareOption{tokyonight-moon}{
+	\definecolor{background}{HTML}{222436}	% #222436
+	\definecolor{foreground}{HTML}{c8d3f5}	% #c8d3f5
+	\definecolor{comment}{HTML}{828bb8} 	% #828bb8
+	\definecolor{color1}{HTML}{82aaff}		% #82aaff
+	\definecolor{color2}{HTML}{c3e88d}		% #c3e88d
+	\definecolor{color3}{HTML}{ffc777}		% #ffc777
+	\definecolor{color4}{HTML}{ff757f}		% #ff757f
+	\definecolor{color5}{HTML}{c099ff}		% #c099ff
+	\definecolor{color6}{HTML}{86e1fc}		% #86e1fc
+	\definecolor{color7}{HTML}{1b1d2b}		% #1b1d2b
+	\definecolor{url}{HTML}{4fd6be}			% #4fd6be
+	\definecolor{math}{HTML}{86e1fc}			% #86e1fc
+}
+
+% TokyoNight Storm
+\DeclareOption{tokyonight-night}{
+	\definecolor{background}{HTML}{1a1b26 }	% #1a1b26 
+	\definecolor{foreground}{HTML}{c0caf5 }	% #c0caf5 
+	\definecolor{comment}{HTML}{283457} 		% #283457
+	\definecolor{color1}{HTML}{bb9af7}			% #bb9af7
+	\definecolor{color2}{HTML}{9ece6a}			% #9ece6a
+	\definecolor{color3}{HTML}{e0af68}			% #e0af68
+	\definecolor{color4}{HTML}{f7768e}			% #f7768e
+	\definecolor{color5}{HTML}{7aa2f7}			% #7aa2f7
+	\definecolor{color6}{HTML}{7dcfff}			% #7dcfff
+	\definecolor{color7}{HTML}{a9b1d6}			% #a9b1d6
+	\definecolor{color8}{HTML}{15161e}			% #15161e
+	\definecolor{url}{HTML}{73daca}				% #73daca
+	\definecolor{math}{HTML}{7dcfff}				% #7dcfff
+}
+
 
 % TokyoNight Day
 \DeclareOption{tokyonight-day}{
