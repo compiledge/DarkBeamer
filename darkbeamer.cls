@@ -480,3 +480,19 @@
 	 filecolor=url,
     urlcolor=url,
 }
+
+% ----------------------------------------------
+% 					Notes
+% ----------------------------------------------
+\setbeamertemplate{note page}{%
+	\scriptsize
+	\ifbeamercolorempty[bg]{note page}{}{%
+			\nointerlineskip%
+			\insertvrule{\paperheight}{note page.bg}%
+			\vskip-1\paperheight%
+		}%
+		\insertnote%
+	}
+\setbeamercolor{note page}{fg=foreground,bg=background}
+\addtobeamertemplate{note page}{\setbeamerfont{itemize/enumerate subbody}{size=\scriptsize}}{}
+\addtobeamertemplate{note page}{\setbeamerfont{itemize/enumerate subsubbody}{size=\scriptsize}}{}
