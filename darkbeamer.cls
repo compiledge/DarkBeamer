@@ -4,6 +4,7 @@
 
 \RequirePackage{xcolor}				% Custom colors
 \RequirePackage{outlines}			% Better lists
+\RequirePackage{ifthen}				% if/then/else
 
 % Passing every unknown option to beamer class
 \DeclareOption*{%
@@ -12,6 +13,24 @@
 
 % Beamer Themes
 \newcommand{\mytheme}{default}
+\newcommand{\mylang}{en-us}
+
+% Language options
+\newif\if@langPtBr
+\newif\if@langUsEn
+
+\DeclareOption{lang=en-us}{
+	\@langUsEntrue
+	\@langPtBrfalse
+}
+
+\DeclareOption{lang=pt-br}{
+	\@langPtBrtrue
+	\@langUsEnfalse
+}
+
+% \DeclareOption{lang=en-us}{\renewcommand{\mylang}{en-us}}
+% \DeclareOption{lang=pt-br}{\renewcommand{\mylang}{pt-br}}
 
 % Config custom beamer theme
 \DeclareOption{AnnArbor}{\renewcommand{\mytheme}{AnnArbor}}
@@ -254,6 +273,37 @@
 
 % Defining theme
 \usetheme{\mytheme}
+
+% ----------------------------------------------
+% 					Language customization
+% ----------------------------------------------
+% Brazilian Portuguese
+\if@langPtBr
+\uselanguage{portuguese}
+\languagepath{portuguese}
+\renewcommand{\lstlistingname}{Algoritmo}
+\renewcommand{\lstlistlistingname}{Lista de Algoritmos}
+\renewcommand{\figurename}{Figura}
+\renewcommand{\tablename}{Tabela}
+\deftranslation[to=portuguese]{theorem}{teorema}
+\deftranslation[to=portuguese]{Theorem}{Teorema}
+\deftranslation[to=portuguese]{corollary}{corolário}
+\deftranslation[to=portuguese]{Corollary}{Corolário}
+\deftranslation[to=portuguese]{definition}{definição}
+\deftranslation[to=portuguese]{Definition}{Definição}
+\deftranslation[to=portuguese]{definitions}{definições}
+\deftranslation[to=portuguese]{Definitions}{Definições}
+\deftranslation[to=portuguese]{fact}{fato}
+\deftranslation[to=portuguese]{Fact}{Fato}
+\deftranslation[to=portuguese]{problem}{problema}
+\deftranslation[to=portuguese]{Problem}{Problema}
+\deftranslation[to=portuguese]{lemma}{Lema}
+\deftranslation[to=portuguese]{Lemma}{Lema}
+\deftranslation[to=portuguese]{example}{exemplo}
+\deftranslation[to=portuguese]{Example}{Exemplo}
+\deftranslation[to=portuguese]{examples}{exemplos}
+\deftranslation[to=portuguese]{Examples}{Exemplos}
+\fi
 
 % ----------------------------------------------
 % 					Theme customization
