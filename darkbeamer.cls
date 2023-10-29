@@ -133,71 +133,95 @@
 	\definecolor{url}{HTML}{458588}			% #458588
 }
 
-% TokyoNight Storm
-\DeclareOption{tokyonight-storm}{
-	\definecolor{background}{HTML}{24283b}	% #24283b
-	\definecolor{foreground}{HTML}{c0caf5}	% #c0caf5
-	\definecolor{color1}{HTML}{7aa2f7}		% #7aa2f7
-	\definecolor{color2}{HTML}{9ece6a}		% #9ece6a
-	\definecolor{color3}{HTML}{e0af68}		% #e0af68
-	\definecolor{color4}{HTML}{f7768e}		% #f7768e
-	\definecolor{color5}{HTML}{bb9af7}		% #bb9af7
-	\definecolor{color6}{HTML}{7dcfff}		% #7dcfff
-	\definecolor{color7}{HTML}{a9b1d6}		% #a9b1d6
-	\definecolor{color8}{HTML}{ff9e64}		% #ff9e64
-	\definecolor{url}{HTML}{73daca}			% #73daca
-	\definecolor{math}{HTML}{db4b4b}			% #db4b4b
-}
-
 % TokyoNight Moon
 \DeclareOption{tokyonight-moon}{
 	\definecolor{background}{HTML}{222436}	% #222436
 	\definecolor{foreground}{HTML}{c8d3f5}	% #c8d3f5
-	\definecolor{comment}{HTML}{828bb8} 	% #828bb8
-	\definecolor{color1}{HTML}{82aaff}		% #82aaff
-	\definecolor{color2}{HTML}{c3e88d}		% #c3e88d
-	\definecolor{color3}{HTML}{ffc777}		% #ffc777
-	\definecolor{color4}{HTML}{ff757f}		% #ff757f
-	\definecolor{color5}{HTML}{c099ff}		% #c099ff
-	\definecolor{color6}{HTML}{86e1fc}		% #86e1fc
-	\definecolor{color7}{HTML}{1b1d2b}		% #1b1d2b
-	\definecolor{url}{HTML}{4fd6be}			% #4fd6be
-	\definecolor{math}{HTML}{86e1fc}			% #86e1fc
+	\definecolor{comment}{HTML}{565f89} 	% #565f89
+	\definecolor{color1}{HTML}{f7768e}		% #f7768e
+	\definecolor{color2}{HTML}{ff9e64}		% #ff9e64
+	\definecolor{color3}{HTML}{9ece6a}		% #9ece6a
+	\definecolor{color4}{HTML}{b4f9f8}		% #b4f9f8
+	\definecolor{color5}{HTML}{2ac3de}		% #2ac3de
+	\definecolor{color6}{HTML}{7dcfff}		% #7dcfff
+	\definecolor{color7}{HTML}{7aa2f7}		% #7aa2f7
+	\definecolor{color8}{HTML}{bb9af7} 		% #bb9af7
+	\definecolor{color9}{HTML}{c0caf5} 		% #c0caf5
+	\definecolor{color10}{HTML}{9aa5ce} 	% #9aa5ce
+	\definecolor{color11}{HTML}{cfc9c2} 	% #cfc9c2
+	\definecolor{color12}{HTML}{565f89} 	% #565f89
+	\definecolor{color13}{HTML}{414868} 	% #414868
+	\definecolor{color14}{HTML}{24283b} 	% #24283b
+	\definecolor{url}{HTML}{73daca} 			% #73daca
+	\definecolor{math}{HTML}{e0af68}			% #e0af68
 }
 
 % TokyoNight Storm
+\DeclareOption{tokyonight-storm}{
+	\definecolor{background}{HTML}{24283b}	% #222436
+	\definecolor{foreground}{HTML}{a9b1d6}	% #a9b1d6
+	\definecolor{comment}{HTML}{565f89} 	% #565f89
+	\definecolor{color1}{HTML}{f7768e}		% #f7768e
+	\definecolor{color2}{HTML}{ff9e64}		% #ff9e64
+	\definecolor{color3}{HTML}{9ece6a}		% #9ece6a
+	\definecolor{color4}{HTML}{b4f9f8}		% #b4f9f8
+	\definecolor{color5}{HTML}{2ac3de}		% #2ac3de
+	\definecolor{color6}{HTML}{7dcfff}		% #7dcfff
+	\definecolor{color7}{HTML}{7aa2f7}		% #7aa2f7
+	\definecolor{color8}{HTML}{bb9af7} 		% #bb9af7
+	\definecolor{color9}{HTML}{c0caf5} 		% #c0caf5
+	\definecolor{color10}{HTML}{9aa5ce} 	% #9aa5ce
+	\definecolor{color11}{HTML}{cfc9c2} 	% #cfc9c2
+	\definecolor{color12}{HTML}{565f89} 	% #565f89
+	\definecolor{color13}{HTML}{414868} 	% #414868
+	\definecolor{color14}{HTML}{24283b} 	% #24283b
+	\definecolor{url}{HTML}{73daca} 			% #73daca
+	\definecolor{math}{HTML}{e0af68}			% #e0af68
+}
+
+% TokyoNight Night
 \DeclareOption{tokyonight-night}{
-	\definecolor{background}{HTML}{1a1b26 }	% #1a1b26 
-	\definecolor{foreground}{HTML}{c0caf5 }	% #c0caf5 
-	\definecolor{comment}{HTML}{283457} 		% #283457
-	\definecolor{color1}{HTML}{bb9af7}			% #bb9af7
-	\definecolor{color2}{HTML}{9ece6a}			% #9ece6a
-	\definecolor{color3}{HTML}{e0af68}			% #e0af68
-	\definecolor{color4}{HTML}{f7768e}			% #f7768e
-	\definecolor{color5}{HTML}{7aa2f7}			% #7aa2f7
-	\definecolor{color6}{HTML}{7dcfff}			% #7dcfff
-	\definecolor{color7}{HTML}{a9b1d6}			% #a9b1d6
-	\definecolor{color8}{HTML}{15161e}			% #15161e
-	\definecolor{url}{HTML}{73daca}				% #73daca
-	\definecolor{math}{HTML}{7dcfff}				% #7dcfff
+	\definecolor{background}{HTML}{1a1b26}	% #1a1b26 
+	\definecolor{foreground}{HTML}{a9b1d6}	% #a9b1d6
+	\definecolor{comment}{HTML}{565f89} 	% #565f89
+	\definecolor{color1}{HTML}{f7768e}		% #f7768e
+	\definecolor{color2}{HTML}{ff9e64}		% #ff9e64
+	\definecolor{color3}{HTML}{9ece6a}		% #9ece6a
+	\definecolor{color4}{HTML}{b4f9f8}		% #b4f9f8
+	\definecolor{color5}{HTML}{2ac3de}		% #2ac3de
+	\definecolor{color6}{HTML}{7dcfff}		% #7dcfff
+	\definecolor{color7}{HTML}{7aa2f7}		% #7aa2f7
+	\definecolor{color8}{HTML}{bb9af7} 		% #bb9af7
+	\definecolor{color9}{HTML}{c0caf5}		% #c0caf5
+	\definecolor{color10}{HTML}{9aa5ce} 	% #9aa5ce
+	\definecolor{color11}{HTML}{cfc9c2} 	% #cfc9c2
+	\definecolor{color12}{HTML}{565f89} 	% #565f89
+	\definecolor{color13}{HTML}{414868} 	% #414868
+	\definecolor{color14}{HTML}{24283b} 	% #24283b
+	\definecolor{url}{HTML}{73daca} 			% #73daca
+	\definecolor{math}{HTML}{e0af68}			% #e0af68
 }
 
 
-% TokyoNight Day
-\DeclareOption{tokyonight-day}{
-	\definecolor{background}{HTML}{e1e2e7}	% #e1e2e7
-	\definecolor{foreground}{HTML}{3760bf}	% #3760bf
-	\definecolor{color1}{HTML}{2e7de9}		% #2e7de9
-	\definecolor{color2}{HTML}{587539}		% #587539
-	\definecolor{color3}{HTML}{8c6c3e}		% #8c6c3e
-	\definecolor{color4}{HTML}{f52a65}		% #f52a65
-	\definecolor{color5}{HTML}{9854f1}		% #9854f1
-	\definecolor{color6}{HTML}{007197}		% #007197
-	\definecolor{color7}{HTML}{6172b0}		% #6172b0
-	\definecolor{color8}{HTML}{387068}		% #387068
-	\definecolor{url}{HTML}{b15c00}			% #b15c00
-	\definecolor{math}{HTML}{c64343}			% #c64343
+% TokyoNight Light
+\DeclareOption{tokyonight-light}{
+	\definecolor{background}{HTML}{d5d6db}		% #d5d6db
+	\definecolor{foreground}{HTML}{343b58}		% #343b58
+	\definecolor{comment}{HTML}{9699a3}			% #9699a3
+	\definecolor{color1}{HTML}{8c4351}			% #8c4351
+	\definecolor{color2}{HTML}{8f5e15}			% #8f5e15
+	\definecolor{color3}{HTML}{485e30}			% #485e30
+	\definecolor{color4}{HTML}{166775}			% #166775
+	\definecolor{color5}{HTML}{0f4b6e}			% #0f4b6e
+	\definecolor{color6}{HTML}{34548a}			% #34548a
+	\definecolor{color7}{HTML}{5a4a78}			% #5a4a78
+	\definecolor{color8}{HTML}{565a6e}			% #565a6e
+	\definecolor{color9}{HTML}{634f30}			% #634f30
+	\definecolor{color10}{HTML}{0f0f14}			% #0f0f14
+	\definecolor{url}{HTML}{33635c}				% #33635c
+	\definecolor{math}{HTML}{965027}				% #965027
 }
+
 
 % Solarized Dark
 \DeclareOption{solarized-dark}{
