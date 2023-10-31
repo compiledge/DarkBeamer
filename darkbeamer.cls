@@ -138,14 +138,14 @@
 	\definecolor{background}{HTML}{222436}	% #222436
 	\definecolor{foreground}{HTML}{c8d3f5}	% #c8d3f5
 	\definecolor{comment}{HTML}{565f89} 	% #565f89
-	\definecolor{color1}{HTML}{f7768e}		% #f7768e
-	\definecolor{color2}{HTML}{ff9e64}		% #ff9e64
-	\definecolor{color3}{HTML}{9ece6a}		% #9ece6a
-	\definecolor{color4}{HTML}{b4f9f8}		% #b4f9f8
-	\definecolor{color5}{HTML}{2ac3de}		% #2ac3de
-	\definecolor{color6}{HTML}{7dcfff}		% #7dcfff
-	\definecolor{color7}{HTML}{7aa2f7}		% #7aa2f7
-	\definecolor{color8}{HTML}{bb9af7} 		% #bb9af7
+	\definecolor{color1}{HTML}{bb9af7} 		% #bb9af7
+	\definecolor{color2}{HTML}{9ece6a}		% #9ece6a
+	\definecolor{color3}{HTML}{ff9e64}		% #ff9e64
+	\definecolor{color4}{HTML}{f7768e}		% #f7768e
+	\definecolor{color5}{HTML}{b4f9f8}		% #b4f9f8
+	\definecolor{color6}{HTML}{2ac3de}		% #2ac3de
+	\definecolor{color7}{HTML}{7dcfff}		% #7dcfff
+	\definecolor{color8}{HTML}{7aa2f7}		% #7aa2f7
 	\definecolor{color9}{HTML}{c0caf5} 		% #c0caf5
 	\definecolor{color10}{HTML}{9aa5ce} 	% #9aa5ce
 	\definecolor{color11}{HTML}{cfc9c2} 	% #cfc9c2
@@ -161,14 +161,14 @@
 	\definecolor{background}{HTML}{24283b}	% #222436
 	\definecolor{foreground}{HTML}{a9b1d6}	% #a9b1d6
 	\definecolor{comment}{HTML}{565f89} 	% #565f89
-	\definecolor{color1}{HTML}{f7768e}		% #f7768e
-	\definecolor{color2}{HTML}{ff9e64}		% #ff9e64
-	\definecolor{color3}{HTML}{9ece6a}		% #9ece6a
-	\definecolor{color4}{HTML}{b4f9f8}		% #b4f9f8
-	\definecolor{color5}{HTML}{2ac3de}		% #2ac3de
-	\definecolor{color6}{HTML}{7dcfff}		% #7dcfff
-	\definecolor{color7}{HTML}{7aa2f7}		% #7aa2f7
-	\definecolor{color8}{HTML}{bb9af7} 		% #bb9af7
+	\definecolor{color1}{HTML}{bb9af7} 		% #bb9af7
+	\definecolor{color2}{HTML}{9ece6a}		% #9ece6a
+	\definecolor{color3}{HTML}{ff9e64}		% #ff9e64
+	\definecolor{color4}{HTML}{f7768e}		% #f7768e
+	\definecolor{color5}{HTML}{b4f9f8}		% #b4f9f8
+	\definecolor{color6}{HTML}{2ac3de}		% #2ac3de
+	\definecolor{color7}{HTML}{7dcfff}		% #7dcfff
+	\definecolor{color8}{HTML}{7aa2f7}		% #7aa2f7
 	\definecolor{color9}{HTML}{c0caf5} 		% #c0caf5
 	\definecolor{color10}{HTML}{9aa5ce} 	% #9aa5ce
 	\definecolor{color11}{HTML}{cfc9c2} 	% #cfc9c2
@@ -184,14 +184,14 @@
 	\definecolor{background}{HTML}{1a1b26}	% #1a1b26 
 	\definecolor{foreground}{HTML}{a9b1d6}	% #a9b1d6
 	\definecolor{comment}{HTML}{565f89} 	% #565f89
-	\definecolor{color1}{HTML}{f7768e}		% #f7768e
-	\definecolor{color2}{HTML}{ff9e64}		% #ff9e64
-	\definecolor{color3}{HTML}{9ece6a}		% #9ece6a
-	\definecolor{color4}{HTML}{b4f9f8}		% #b4f9f8
-	\definecolor{color5}{HTML}{2ac3de}		% #2ac3de
-	\definecolor{color6}{HTML}{7dcfff}		% #7dcfff
-	\definecolor{color7}{HTML}{7aa2f7}		% #7aa2f7
-	\definecolor{color8}{HTML}{bb9af7} 		% #bb9af7
+	\definecolor{color1}{HTML}{bb9af7} 		% #bb9af7
+	\definecolor{color2}{HTML}{9ece6a}		% #9ece6a
+	\definecolor{color3}{HTML}{ff9e64}		% #ff9e64
+	\definecolor{color4}{HTML}{f7768e}		% #f7768e
+	\definecolor{color5}{HTML}{b4f9f8}		% #b4f9f8
+	\definecolor{color6}{HTML}{2ac3de}		% #2ac3de
+	\definecolor{color7}{HTML}{7dcfff}		% #7dcfff
+	\definecolor{color8}{HTML}{7aa2f7}		% #7aa2f7
 	\definecolor{color9}{HTML}{c0caf5}		% #c0caf5
 	\definecolor{color10}{HTML}{9aa5ce} 	% #9aa5ce
 	\definecolor{color11}{HTML}{cfc9c2} 	% #cfc9c2
@@ -208,13 +208,13 @@
 	\definecolor{background}{HTML}{d5d6db}		% #d5d6db
 	\definecolor{foreground}{HTML}{343b58}		% #343b58
 	\definecolor{comment}{HTML}{9699a3}			% #9699a3
-	\definecolor{color1}{HTML}{8c4351}			% #8c4351
-	\definecolor{color2}{HTML}{8f5e15}			% #8f5e15
-	\definecolor{color3}{HTML}{485e30}			% #485e30
-	\definecolor{color4}{HTML}{166775}			% #166775
-	\definecolor{color5}{HTML}{0f4b6e}			% #0f4b6e
-	\definecolor{color6}{HTML}{34548a}			% #34548a
-	\definecolor{color7}{HTML}{5a4a78}			% #5a4a78
+	\definecolor{color1}{HTML}{5a4a78}			% #5a4a78
+	\definecolor{color2}{HTML}{485e30}			% #485e30
+	\definecolor{color3}{HTML}{8f5e15}			% #8f5e15
+	\definecolor{color4}{HTML}{8c4351}			% #8c4351
+	\definecolor{color5}{HTML}{166775}			% #166775
+	\definecolor{color6}{HTML}{0f4b6e}			% #0f4b6e
+	\definecolor{color7}{HTML}{34548a}			% #34548a
 	\definecolor{color8}{HTML}{565a6e}			% #565a6e
 	\definecolor{color9}{HTML}{634f30}			% #634f30
 	\definecolor{color10}{HTML}{0f0f14}			% #0f0f14
