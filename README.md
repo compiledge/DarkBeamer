@@ -5,6 +5,7 @@ Dark Beamer
 # Features
 - Color schemes:
     - 🧛 Dracula
+    - 🌞 Solarized (Dark/Light)
     - 🌲 Everforest (Dark/Light)
 
 - Integration with default beamer templates
@@ -29,6 +30,26 @@ Dark Beamer
         <td><img src="img/dracula-3.png"></td>
         <td><img src="img/dracula-4.png"></td>
         <td><img src="img/dracula-5.png"></td>
+    </tr>
+    <tr>
+        <td>
+        <a href="https://en.wikipedia.org/wiki/Solarized">Solarized (dark)</a>
+        </td>
+        <td><img src="img/solarized-dark-1.png"></td>
+        <td><img src="img/solarized-dark-2.png"></td>
+        <td><img src="img/solarized-dark-3.png"></td>
+        <td><img src="img/solarized-dark-4.png"></td>
+        <td><img src="img/solarized-dark-5.png"></td>
+    </tr>
+    <tr>
+        <td>
+        <a href="https://en.wikipedia.org/wiki/Solarized">Solarized (light)</a>
+        </td>
+        <td><img src="img/solarized-light-1.png"></td>
+        <td><img src="img/solarized-light-2.png"></td>
+        <td><img src="img/solarized-light-3.png"></td>
+        <td><img src="img/solarized-light-4.png"></td>
+        <td><img src="img/solarized-light-5.png"></td>
     </tr>
     <tr>
         <td>
