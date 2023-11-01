@@ -33,7 +33,7 @@ Dark Beamer
     </tr>
     <tr>
         <td>
-        <a href="https://en.wikipedia.org/wiki/Solarized">Solarized (dark)</a>
+        <a href="https://en.wikipedia.org/wiki/Solarized">Solarized Dark</a>
         </td>
         <td><img src="img/solarized-dark-1.png"></td>
         <td><img src="img/solarized-dark-2.png"></td>
@@ -43,7 +43,7 @@ Dark Beamer
     </tr>
     <tr>
         <td>
-        <a href="https://en.wikipedia.org/wiki/Solarized">Solarized (light)</a>
+        <a href="https://en.wikipedia.org/wiki/Solarized">Solarized Light</a>
         </td>
         <td><img src="img/solarized-light-1.png"></td>
         <td><img src="img/solarized-light-2.png"></td>
@@ -53,12 +53,22 @@ Dark Beamer
     </tr>
     <tr>
         <td>
-        <a href="https://github.com/sainnhe/everforest">Everforest Dark (dark)</a>
+        <a href="https://github.com/sainnhe/everforest">Everforest Dark</a>
         </td>
         <td><img src="img/ever-dark-1.png"></td>
         <td><img src="img/ever-dark-2.png"></td>
         <td><img src="img/ever-dark-3.png"></td>
         <td><img src="img/ever-dark-4.png"></td>
         <td><img src="img/ever-dark-5.png"></td>
+    </tr>
+    <tr>
+        <td>
+        <a href="https://github.com/sainnhe/everforest">Everforest Light</a>
+        </td>
+        <td><img src="img/ever-light-1.png"></td>
+        <td><img src="img/ever-light-2.png"></td>
+        <td><img src="img/ever-light-3.png"></td>
+        <td><img src="img/ever-light-4.png"></td>
+        <td><img src="img/ever-light-5.png"></td>
     </tr>
 </table>
