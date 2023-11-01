@@ -1,4 +1,4 @@
-<h1 align="center">
+q<h1 align="center">
 Dark Beamer
 </h1>
 
@@ -6,6 +6,7 @@ Dark Beamer
 - Color schemes:
     - 🧛 Dracula
     - 🌞 Solarized (Dark/Light)
+    - 🥫 Gruvbox (Dark/Light)
     - 🌲 Everforest (Dark/Light)
 
 - Integration with default beamer templates
@@ -50,6 +51,26 @@ Dark Beamer
         <td><img src="img/solarized-light-3.png"></td>
         <td><img src="img/solarized-light-4.png"></td>
         <td><img src="img/solarized-light-5.png"></td>
+    </tr>
+    <tr>
+        <td>
+        <a href="https://github.com/morhetz/gruvbox">Gruvbox Dark</a>
+        </td>
+        <td><img src="img/gruvbox-dark-1.png"></td>
+        <td><img src="img/gruvbox-dark-2.png"></td>
+        <td><img src="img/gruvbox-dark-3.png"></td>
+        <td><img src="img/gruvbox-dark-4.png"></td>
+        <td><img src="img/gruvbox-dark-5.png"></td>
+    </tr>
+    <tr>
+        <td>
+        <a href="https://github.com/morhetz/gruvbox">Gruvbox Light</a>
+        </td>
+        <td><img src="img/gruvbox-light-1.png"></td>
+        <td><img src="img/gruvbox-light-2.png"></td>
+        <td><img src="img/gruvbox-light-3.png"></td>
+        <td><img src="img/gruvbox-light-4.png"></td>
+        <td><img src="img/gruvbox-light-5.png"></td>
     </tr>
     <tr>
         <td>
