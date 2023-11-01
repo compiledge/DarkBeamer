@@ -24,10 +24,10 @@ Dark Beamer
         <td>
         <a href="https://github.com/sainnhe/everforest">Everforest Dark (dark)</a>
         </td>
-        <td><img src="ever-dark-1.png"></td>
-        <td><img src="ever-dark-2.png"></td>
-        <td><img src="ever-dark-3.png"></td>
-        <td><img src="ever-dark-4.png"></td>
-        <td><img src="ever-dark-5.png"></td>
+        <td><img src="img/ever-dark-1.png"></td>
+        <td><img src="img/ever-dark-2.png"></td>
+        <td><img src="img/ever-dark-3.png"></td>
+        <td><img src="img/ever-dark-4.png"></td>
+        <td><img src="img/ever-dark-5.png"></td>
     </tr>
 </table>
