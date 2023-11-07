@@ -307,6 +307,48 @@
 	\definecolor{math}{HTML}{16a085}			% #16a085
 }
 
+% RosePine
+% Ref: https://rosepinetheme.com/palette/ingredients/
+\DeclareOption{rosepine}{
+	\definecolor{background}{HTML}{191724}	% #191724
+	\definecolor{foreground}{HTML}{e0def4}	% #e0def4
+	\definecolor{color1}{HTML}{ebbcba}		% #ebbcba
+	\definecolor{color2}{HTML}{9ccfd8}		% #9ccfd8
+	\definecolor{color3}{HTML}{f6c177}		% #f6c177
+	\definecolor{color4}{HTML}{eb6f92}		% #eb6f92
+	\definecolor{color5}{HTML}{c4a7e7}		% #c4a7e7
+	\definecolor{url}{HTML}{31748f}			% #31748f
+	\definecolor{math}{HTML}{c4a7e7}			% #c4a7e7
+}
+
+% RosePine-Moon
+% Ref: https://rosepinetheme.com/palette/ingredients/
+\DeclareOption{rosepine-moon}{
+	\definecolor{background}{HTML}{232136}	% #232136
+	\definecolor{foreground}{HTML}{e0def4}	% #e0def4
+	\definecolor{color1}{HTML}{ea9a97}		% #ea9a97
+	\definecolor{color2}{HTML}{9ccfd8}		% #9ccfd8
+	\definecolor{color3}{HTML}{f6c177}		% #f6c177
+	\definecolor{color4}{HTML}{eb6f92}		% #eb6f92
+	\definecolor{color5}{HTML}{c4a7e7}		% #c4a7e7
+	\definecolor{url}{HTML}{3e8fb0}			% #3e8fb0
+	\definecolor{math}{HTML}{c4a7e7}			% #c4a7e7
+}
+
+% RosePine-Light
+% Ref: https://rosepinetheme.com/palette/ingredients/
+\DeclareOption{rosepine-dawn}{
+	\definecolor{background}{HTML}{faf4ed}	% #faf4ed
+	\definecolor{foreground}{HTML}{575279}	% #575279
+	\definecolor{color1}{HTML}{d7827e}		% #d7827e
+	\definecolor{color2}{HTML}{56949f}		% #56949f
+	\definecolor{color3}{HTML}{ea9d34}		% #ea9d34
+	\definecolor{color4}{HTML}{b4637a}		% #b4637a
+	\definecolor{color5}{HTML}{907aa9}		% #907aa9
+	\definecolor{url}{HTML}{286983}			% #286983
+	\definecolor{math}{HTML}{907aa9}			% #907aa9
+}
+
 % ----------------------------------------------
 % 					Loading opts and class
 % ----------------------------------------------
