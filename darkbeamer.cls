@@ -279,6 +279,34 @@
 	\definecolor{math}{HTML}{df69ba}			% #df69ba
 }
 
+% FlatColors Light
+% Ref: https://flatuicolors.com/palette/defo
+\DeclareOption{flatcolors-light}{
+	\definecolor{background}{HTML}{ecf0f1}	% #ecf0f1
+	\definecolor{foreground}{HTML}{2c3e50}	% #2c3e50
+	\definecolor{color1}{HTML}{2ecc71}		% #2ecc71
+	\definecolor{color2}{HTML}{27ae60}		% #27ae60
+	\definecolor{color3}{HTML}{f39c12}		% #f39c12
+	\definecolor{color4}{HTML}{e74c3c}		% #e74c3c
+	\definecolor{color5}{HTML}{9b59b6}		% #9b59b6
+	\definecolor{url}{HTML}{2980b9}			% #2980b9
+	\definecolor{math}{HTML}{16a085}			% #16a085
+}
+
+% FlatColors Dark
+% Ref: https://flatuicolors.com/palette/defo
+\DeclareOption{flatcolors-dark}{
+	\definecolor{background}{HTML}{2c3e50}	% #2c3e50
+	\definecolor{foreground}{HTML}{ecf0f1}	% #ecf0f1
+	\definecolor{color1}{HTML}{2ecc71}		% #2ecc71
+	\definecolor{color2}{HTML}{27ae60}		% #2ecc71
+	\definecolor{color3}{HTML}{f39c12}		% #f39c12
+	\definecolor{color4}{HTML}{e74c3c}		% #e74c3c
+	\definecolor{color5}{HTML}{9b59b6}		% #9b59b6
+	\definecolor{url}{HTML}{2980b9}			% #2980b9
+	\definecolor{math}{HTML}{16a085}			% #16a085
+}
+
 % ----------------------------------------------
 % 					Loading opts and class
 % ----------------------------------------------
